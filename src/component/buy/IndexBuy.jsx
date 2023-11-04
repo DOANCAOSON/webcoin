@@ -78,7 +78,7 @@ const IndexBuy = () => {
                                                 <div className="flex items-center px-[20px] py-[4px] mb-[8px]">
                                                     <label className="w-[240px]" htmlFor=""> </label>
                                                     <div>
-                                                        <Link to="/selloder" className="bg-bgcontainer text-text px-[20px] py-[4px]  rounded-lg">Tiếp tục</Link>
+                                                        <Link to="/buyoder" className="bg-bgcontainer text-text px-[20px] py-[4px]  rounded-lg">Tiếp tục</Link>
                                                     </div>
                                                 </div>
                                             </div>

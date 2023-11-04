@@ -70,9 +70,9 @@ const HomeIndex = () => {
 
               <div className="flex justify-center">
                 <p>
-                  <button className="text-text rounded-sm px-[20px] py-[4px] bg-[#DD0000] text-[24px]">
-                    Mua ngay
-                  </button>
+                  <Link to="/sell" className="text-text rounded-sm px-[20px] py-[4px] bg-[#DD0000] text-[24px]">
+                    Bán ngay
+                  </Link>
                 </p>
               </div>
             </div>
