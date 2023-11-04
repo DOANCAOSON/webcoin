@@ -11,11 +11,16 @@ import {
   Route,
 } from "react-router-dom";
 import Detail from "./page/Detail";
-import Search from "./page/Search";
+import New from "./page/New";
+// import Search from "./page/Search";
 import Buy from "./page/Buy";
 import Paymentorders from "./page/Paymentorders";
 import SellIndex from "./component/sell/SellIndex";
 import Sellpaymentoder from "./page/Sellpaymentoder";
+import LoginModa from "./page/LoginModa";
+import Instruct from "./page/Instruct";
+import NewItem from "./component/new/NewItem";
+import { Search } from "./page/Search";
 
 function App() {
   return (
@@ -29,7 +34,14 @@ function App() {
         <Route exact path="/sell" element={< SellIndex/>} />
         <Route exact path="/buyoder" element={<Paymentorders />} />
         <Route exact path="/selloder" element={<Sellpaymentoder />} />
-        <Route exact path="/search" element={<Search />} />
+        <Route exact path="/instruct" element={<Instruct />} />
+        <Route exact path="/search" element={<Search/>} />
+        <Route exact path="/login" element={<LoginModa />} />
+        <Route exact path="/news" element={<New/>} />
+        <Route exact path="/newItem" element={<NewItem />} />
+
+
+        {/* <Route exact path="/search" element={<Search />} /> */}
         <Route path="/detail/:id" element={<Detail />} />
       </Routes>
       <Footer />

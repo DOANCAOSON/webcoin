@@ -18,12 +18,8 @@ const Header = () => {
       <div className="flex w-[100%] justify-center">
         <div className="w-[100%] flex justify-center bg-bgcontainer">
           <div className='lg:w-[1400px] flex items-center justify-end py-[4px] px-[4px]'>
-            <Link className='text-text text-[12px] sm:text-[13px] lg:text-[14px] font-medium'>
+            <Link to='/login' className='text-text text-[12px] sm:text-[13px] lg:text-[14px] font-medium'>
               Đăng nhập
-            </Link>
-            <div className='text-text text-[12px] sm:text-[13px] lg:text-[14px] mx-[16px]'>/</div>
-            <Link className='text-text text-[12px] sm:text-[13px] lg:text-[14px] font-medium'>
-              Đăng xuất
             </Link>
           </div>
         </div>
@@ -41,16 +37,19 @@ const Header = () => {
             </span>
           </div>
           <div className='hidden flex-1 lg:flex items-center  justify-end  '>
-            <Link to="/" className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
-              Mua bán USDT
+            <Link to="/buy" className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
+              Mua USDT
             </Link>
-            <Link className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
+            <Link to="/instruct" className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
               Hướng dẫn mua USDT
             </Link>
-            <Link className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
+            <Link to="/sell" className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
+              Bán USDT
+            </Link>
+            <Link to='/search' className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
               Tra cứu giao dịch
             </Link>
-            <Link className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
+            <Link to='/news' className="px-[20px] py-[4px] mr-[4px] font-bold text-black rounded-md border-transparent border-[1px] hover:text-bgcontainer hover:border-boderhex transition duration-300 ease-in-out">
               Tin tài Chính
             </Link>
           </div>
