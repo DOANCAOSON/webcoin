@@ -4,7 +4,7 @@ const Support = () => {
     return (
         <div>
             <div className="w-[100%] justify-center items-center mt-[60px]">
-                <div className="w-[1400px] mx-[auto] flex justify-between  border-[1px] border-bgcontainer p-[20px] rounded-lg">
+                <div className="w-[100%] lg:w-[1400px] mx-[auto] flex justify-between  border-[1px] border-bgcontainer p-[20px] rounded-lg">
 
                     <div className="w-[1000px] mx-[auto] flex justify-between ">
                         <div className="flex items-center justify-center">
