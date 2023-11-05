@@ -1,9 +1,12 @@
-import NewIndex from "../component/new/newIndex"
+// import NewIndex from "../component/new/newIndex"
 
 const New = () => {
   return (
     <>
-      <NewIndex />
+      {/* <NewIndex /> */}
+      <div>
+        1
+      </div>
     </>
   )
 }
