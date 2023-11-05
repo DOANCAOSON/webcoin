@@ -1,11 +1,11 @@
-import NewIndex from "../component/new/newIndex"
+import NewItem from "../component/new/NewItem"
 
 const New = () => {
   return (
     <>
     
       <div>
-        <NewIndex/>
+        <NewItem/>
       </div>
     </>
   )
