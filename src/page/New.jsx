@@ -3,7 +3,7 @@ import NewIndex from "../component/new/newIndex"
 const New = () => {
   return (
     <>
-    <NewIndex/>
+      <NewIndex />
     </>
   )
 }
