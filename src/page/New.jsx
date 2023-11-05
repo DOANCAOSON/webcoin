@@ -1,12 +1,9 @@
-import NewItem from "../component/new/NewItem"
+import NewIndex from "../component/new/newIndex"
 
 const New = () => {
   return (
     <>
-    
-      <div>
-        <NewItem/>
-      </div>
+      <NewIndex />
     </>
   )
 }
