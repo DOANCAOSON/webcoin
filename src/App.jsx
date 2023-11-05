@@ -11,7 +11,6 @@ import {
   Route,
 } from "react-router-dom";
 import Detail from "./page/Detail";
-import New from "./page/New";
 // import Search from "./page/Search";
 import Buy from "./page/Buy";
 import Paymentorders from "./page/Paymentorders";
@@ -20,6 +19,7 @@ import Sellpaymentoder from "./page/Sellpaymentoder";
 import LoginModa from "./page/LoginModa";
 import Instruct from "./page/Instruct";
 import NewItem from "./component/new/NewItem";
+import New from "./page/New";
 import { Search } from "./page/Search";
 
 function App() {
