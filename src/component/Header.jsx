@@ -66,22 +66,28 @@ const Header = () => {
             {/* Nội dung của sidebar */}
             <div className="absolute z-30 bg-white h-screen w-3/4 px-[20px] py-[60px] sm:px-[40px] sm:py-[80px]">
               <div className='mb-[16px]'>
-                <Link className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
-                  Mua bán USDT
+                <Link to="/buy" className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+                  Mua USDT
                 </Link>
               </div>
               <div className='mb-[16px]'>
-                <Link className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+                <Link to="/instruct" className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
                   Hướng dẫn mua USDT
                 </Link>
               </div>
               <div className='mb-[16px]'>
-                <Link className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+              <Link to="/sell" className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+                Bán USDT
+              </Link>
+              </div>
+
+              <div className='mb-[16px]'>
+                <Link to='/search' className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
                   Tra cứu giao dịch
                 </Link>
               </div>
               <div className='mb-[16px]'>
-                <Link className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+                <Link to='/news' className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
                   Tin tài Chính
                 </Link>
               </div>
