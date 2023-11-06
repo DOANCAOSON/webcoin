@@ -40,8 +40,8 @@ const SellIndex = () => {
               <div className="w-[100%]">
                 <div className="w-[100%]">
                   <div className="w-[100%] flex justify-center">
-                    <div className="w-[100%]">
-                      <div className="mt-[60px] lg:rounded-lg px-[20px] py-[40px] border-x-0 lg:border-b-1 border border-gray-400">
+                    <div className="w-[100%] lg:px-[20px]">
+                      <div className="mt-[60px]  px-[20px] py-[40px] border-x-[0px] sm:border-x-[0px] lg:border-x-[1px] lg:border-b-1 border border-gray-400 ">
                         <div className="sm:flex sm:items-center lg:flex lg:items-center lg:px-[20px] py-[8px] mb-[8px]">
                           <label className="w-[200px]" htmlFor="">Số lượng USDT bán</label>
                           <div className="flex justify-between sm:m-0  mt-[10px] lg:m-0  sm:block lg:block">
