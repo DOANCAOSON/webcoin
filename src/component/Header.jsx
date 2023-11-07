@@ -3,6 +3,7 @@ import myImage from '../assets/img/logo.png';
 import { FaBars } from 'react-icons/fa';
 import { useState } from 'react';
 
+
 const Header = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
 
@@ -21,6 +22,7 @@ const Header = () => {
             <Link to='/login' className='text-text text-[12px] sm:text-[13px] lg:text-[14px] font-medium'>
               Đăng nhập
             </Link>
+            {/* <p>Email: {email}</p>; */}
           </div>
         </div>
       </div>
