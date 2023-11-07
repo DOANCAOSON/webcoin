@@ -5,8 +5,7 @@ const Support = () => {
         <div>
             <div className="w-[100%] justify-center items-center  px-[20px] lg:p-0">
                 <div className="w-[100%] lg:w-[1400px] mx-[auto] flex justify-between  border-[1px] border-bgcontainer p-[20px] rounded-lg">
-
-                    <div className="lg:w-[1000px] mx-[auto] lg:flex justify-between ">
+                    <div className="w-[100%] lg:w-[1000px] mx-[auto] lg:flex justify-between ">
                         <div className="flex items-center mb-[14px] lg:justify-center ">
                             <div className="mr-[20px]">
                                 <div className="w-[50px]">

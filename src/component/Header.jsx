@@ -78,9 +78,9 @@ const Header = () => {
                 </Link>
               </div>
               <div className='mb-[16px]'>
-              <Link to="/sell" className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
-                Bán USDT
-              </Link>
+                <Link to="/sell" className='font-bold text-[12px] sm:text-[16px]  hover:text-bgcontainer transition duration-200 ease-in-out'>
+                  Bán USDT
+                </Link>
               </div>
 
               <div className='mb-[16px]'>
@@ -98,6 +98,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+
   );
 }
 

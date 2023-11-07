@@ -8,23 +8,10 @@
 }
 
 
-.contact-container {
-  border-radius: 5px;
-}
-.contact-heading {
-  font-size: 22px;
-  font-weight: 400;
-}
-.contact-info {
-  font-size: 16px;
-  margin-bottom: 4px;
-}
-
 .dangerouslySetInnerHTML {
   margin: auto;
   width: 100% !important;
 }
-
 
 
 /* loading */
