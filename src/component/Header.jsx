@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <div className='w-[100%]'>
       <div className="flex w-[100%] justify-center">
         <div className="w-[100%] flex justify-center bg-bgcontainer">
           <div className='lg:w-[1400px] flex items-center justify-end py-[4px] px-[4px]'>
