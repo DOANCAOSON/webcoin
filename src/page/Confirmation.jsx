@@ -1,9 +1,9 @@
-// import Confirmationindex from "../component/confirmation/Confirmationindex"
+import Confirmationindex from "../component/confirmation/Confirmationindex"
 
 const Confirmation = () => {
   return (
     <div>
-      {/* <Confirmationindex/> */}
+      <Confirmationindex/>
     </div>
   )
 }

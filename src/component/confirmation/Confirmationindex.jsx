@@ -1,11 +1,15 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { AUTH_CONFIRM_ENDPOINT, BE_ENDPOINT } from "../../constant/Apiendpoint";
-import useEmailStore from '../../zustand/ZustandEmail';
+import { GmailStore } from '../../store/store';
+
 
 const Confirmationindex = () => {
-    // Tạo một store Zustand
-  
+    const { gmail, updateGmail } = GmailStore();
+    console.log(
+        gmail
+    );
+
     useEffect(() => {
         // Gửi yêu cầu API và cập nhật trạng thái khi nhận được dữ liệu
         axios
@@ -16,8 +20,8 @@ const Confirmationindex = () => {
                 if (res.data) {
                     const { email } = res.data
                     // Sử dụng setEmail để cập nhật trạng thái email trong store
-                    useEmailStore.setState({ email });
                     localStorage.setItem("user", email)
+                    updateGmail(email)
                 }
                 location.assign("/")
             })
@@ -30,12 +34,8 @@ const Confirmationindex = () => {
         });
     }, []);
 
-    const email = useEmailStore((state) => state.email);
-    console.log(
-        email
-    );
     return (
-        <div>
+        <div >
             confirmation
         </div>
     )

@@ -25,28 +25,28 @@ import { Search } from "./page/Search";
 
 function App() {
   return (
-    <BrowserRouter>
-    <ScrollYPro/>
-      <Header />
-      <ScrollToTop />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/Buy" element={< Buy/>} />
-        <Route exact path="/sell" element={< SellIndex/>} />
-        <Route exact path="/buyoder" element={<Paymentorders />} />
-        <Route exact path="/selloder" element={<Sellpaymentoder />} />
-        <Route exact path="/instruct" element={<Instruct />} />p
-        <Route exact path="/search" element={<Search/>} />
-        <Route exact path="/login" element={<LoginModa />} />
-        <Route exact path="/news" element={<New/>} />
-        <Route exact path="/confirmation" element={<Confirmation/>} />
-        <Route exact path="/newItem/:slug" element={<NewItem />} />
-        <Route path="/detail/:id" element={<Detail />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+      <BrowserRouter>
+        <ScrollYPro />
+        <Header />
+        <ScrollToTop />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Buy" element={< Buy />} />
+          <Route exact path="/sell" element={< SellIndex />} />
+          <Route exact path="/buyoder" element={<Paymentorders />} />
+          <Route exact path="/selloder" element={<Sellpaymentoder />} />
+          <Route exact path="/instruct" element={<Instruct />} />p
+          <Route exact path="/search" element={<Search />} />
+          <Route exact path="/login" element={<LoginModa />} />
+          <Route exact path="/news" element={<New />} />
+          <Route exact path="/confirmation" element={<Confirmation />} />
+          <Route exact path="/newItem/:slug" element={<NewItem />} />
+          <Route path="/detail/:id" element={<Detail />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
   );
-  
+
 }
 
 export default App;

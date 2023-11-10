@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 import myImage from '../assets/img/logo.png';
 import { FaBars } from 'react-icons/fa';
 import { useState } from 'react';
-
+import { useCounterStore } from '../store/store';
 
 const Header = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const { count, increase, decrease } = useCounterStore();
+  console.log("count", count);
 
   const handleSidebarToggle = () => {
     setSidebarOpen(!isSidebarOpen);
@@ -13,6 +15,8 @@ const Header = () => {
   const handleSidebarToggles = () => {
     setSidebarOpen(!isSidebarOpen);
   };
+
+
 
   return (
     <div className='w-[100%]'>
@@ -22,7 +26,12 @@ const Header = () => {
             <Link to='/login' className='text-text text-[12px] sm:text-[13px] lg:text-[14px] font-medium'>
               Đăng nhập
             </Link>
-            {/* <p>Email: {email}</p>; */}
+            <div onClick={increase} >
+              click 1
+            </div>
+            <div onClick={decrease}>
+              clickF
+            </div>
           </div>
         </div>
       </div>
